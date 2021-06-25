@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>my restaurant</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div id="container" class="shadow">
+            <h1>my restaurant</h1>
+            <div id="hamburger">
+                <input type="checkbox" id="hambox" />
+                <label for="hambox">
+                    <span id="ham">&#9776; </span>
+                    <span id="close">&#10006; </span>
+                </label>
+
+                <nav>
+                    <ul>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="friends.html">Friends</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="slideshow">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img
+                            src="img/sandwich.jpeg"
+                            class="large"
+                            alt="tempeh sandwich"
+                        />
+                    </div>
+                    <div class="mySlides fade">
+                        <img
+                            src="img/salad.jpeg"
+                            class="large"
+                            alt="nice salad"
+                        />
+                    </div>
+                    <div class="mySlides fade">
+                        <img
+                            src="img/stirfry.jpeg"
+                            class="large"
+                            alt="tofu stirfry"
+                        />
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br />
+            </div>
+            <div id="intro">
+                <p>
+                    Amet unde quod doloremque consequatur natus optio A modi et
+                    adipisicing optio beatae. Quas similique impedit itaque
+                    laborum impedit? Possimus harum doloribus excepturi
+                    voluptatem debitis nemo odit eaque odio. Aliquam?
+                </p>
+            </div>
+            <div id="contact">
+                <h3>Hours:</h3>
+                <ul>
+                    <li>Mon: 4 - 10</li>
+                    <li>Tue: 4 - 10</li>
+                    <li>Wed: 4 - 10</li>
+                    <li>Thu: 12 - 10</li>
+                    <li>Fri: 12 - 10</li>
+                    <li>Sat: 12 - 10</li>
+                </ul>
+            </div>
+            <div id="map">
+                <iframe
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-77.47845030949975%2C37.55472616244522%2C-77.47115470097924%2C37.56184493899798&amp;layer=mapnik"
+                    style="border: 1px solid black"
+                ></iframe
+                ><br /><small
+                    ><a
+                        href="https://www.openstreetmap.org/#map=17/37.55829/-77.47480&amp;layers=N"
+                        >View Larger Map</a
+                    ></small
+                >
+            </div>
+        </div>
+        <script src="slideShow.js"></script>
+    </body>
+</html>

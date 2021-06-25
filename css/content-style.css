@@ -1,0 +1,40 @@
+.content-left, .content-right {
+    width: 60%;
+    margin: 10% auto;
+    padding: 3%;
+    clear: both;
+    /*border-style: solid;*/
+}
+.content-left p {
+    /*position: relative;*/
+    /*top: 75px;*/
+    /*margin-top: 10%;*/
+}
+.content-right p {
+    /*position: relative;*/
+    /*margin-top: 10%;*/
+}
+.content-left img {
+    display: flex;
+    float: left;
+    clear: both;
+    padding-right: 3%;
+    /*margin: 0% 10%;*/
+}
+.content-right img {
+    display: flex;
+    float: right;
+    padding-left: 3%;
+    /*margin: 0% 10%;*/
+}
+.friend-link {
+    border: 1px solid black;
+}
+.friend-link a {
+    text-decoration: none;
+    color: black;
+    
+}
+.friend-link img {
+    margin-bottom: 15%;
+}
