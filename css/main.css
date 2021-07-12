@@ -10,6 +10,7 @@ h1 {
     border: 1px solid #000;
     margin: 2%;
     padding: 2%;
+    font-size: 60px;
 }
 a.head-link {
     text-decoration: none;
@@ -27,6 +28,9 @@ img.large {
 img.mid {
     height: 40%;
     width: 40%;
+}
+nav a {
+    font-size: 115%;
 }
 nav a:hover {
     background-color: #e2a5a7;
@@ -46,6 +50,11 @@ nav {
     /*width: 100%;*/
     margin: 2%;
     border: 1px solid #000;
+}
+footer {
+    width: 100%;
+    background-color: rgb(204, 219, 185);
+
 }
 #hamburger {
     display: block;
@@ -91,4 +100,8 @@ label[for="hambox"] {
 #construction: {
     margin: 10% auto;
     align-items: center;
+}
+.friend: {
+    text-decoration: underline;
+    color: pink;
 }

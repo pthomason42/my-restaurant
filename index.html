@@ -7,23 +7,27 @@
     </head>
     <body>
         <div id="container" class="shadow">
-            <h1>my restaurant</h1>
-            <div id="hamburger">
-                <input type="checkbox" id="hambox" />
-                <label for="hambox">
-                    <span id="ham">&#9776; </span>
-                    <span id="close">&#10006; </span>
-                </label>
+            <header>
+                <h1>my restaurant</h1>
+                <div id="hamburger">
+                    <input type="checkbox" id="hambox" />
+                    <label for="hambox">
+                        <span id="ham">&#9776; </span>
+                        <span id="close">&#10006; </span>
+                    </label>
 
-                <nav>
-                    <ul>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="friends.html">Friends</a></li>
-                        <li><a href="reservations.html">Reservations</a></li>
-                    </ul>
-                </nav>
-            </div>
+                    <nav>
+                        <ul>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="friends.html">Friends</a></li>
+                            <li>
+                                <a href="reservations.html">Reservations</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
             <div id="slideshow">
                 <div class="slideshow-container">
                     <div class="mySlides fade">
@@ -87,6 +91,11 @@
                     ></small
                 >
             </div>
+            <div style="clear:both;"> </div>
+            <!--Above only works inline for reasons unknown.-->
+            <footer>
+                2021 <a href="https://github.com/pthomason42">P.Thomason</a>
+            </footer>
         </div>
         <script src="slideShow.js"></script>
     </body>
